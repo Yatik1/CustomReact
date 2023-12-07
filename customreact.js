@@ -7,6 +7,7 @@ function customRender(reactElement , container) {
 
     // container.appendChild(domElement)
 
+    
     /* Lets try to optimize the above code */
 
     const domElement = document.createElement(reactElement.type)
